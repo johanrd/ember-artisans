@@ -63,7 +63,9 @@ module.exports = function () {
           npm: {
             devDependencies: {}
           }
-        }
+        },
+        embroiderSafe(),
+        embroiderOptimized(),
       ]
     }
   })
